@@ -7,6 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest {
     @Test
     public void testGreet(){
-        assertEquals("Hello, World!", App.greet("World"));
+        assertEquals("Hello, World!", App.greet("World")); // this is the command i added
     }
 }
